@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/caleberi/microservices-practical#readme",
   "dependencies": {
-    "moleculer": "^0.14.13",
-    "moleculer-web": "^0.10.0-beta2",
-    "nats": "^2.0.4"
+    "moleculer": "^0.14.0",
+    "moleculer-web": "^0.9.0",
+    "nats": "^1.3.2"
   }
 }

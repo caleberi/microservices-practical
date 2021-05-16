@@ -34,6 +34,7 @@ nodeTwo.createService({
   name: "products",
   actions: {
     listProducts(ctx) {
+      console.log(ctx);
       return [
         { name: "Apples", price: 5 },
         { name: "Oranges", price: 3 },
