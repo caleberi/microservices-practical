@@ -24,3 +24,23 @@ nodeOne.createService({
     ],
   },
 });
+
+const nodeTwo = new ServiceBroker({
+  nodeID: "node-2",
+  transporter: "NATS",
+});
+
+nodeTwo.createService({
+  name: "products",
+  actions: {
+    listProducts(ctx) {
+      return [
+        { name: "Apples", price: 5 },
+        { name: "Oranges", price: 3 },
+        { name: "Bananas", price: 2 },
+      ];
+    },
+  },
+});
+
+Promise.all([nodeOne.start(), nodeTwo.start()]);
