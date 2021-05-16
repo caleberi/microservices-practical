@@ -1,0 +1,25 @@
+{
+  "name": "microservices-practical",
+  "version": "1.0.0",
+  "description": "A brief play with microservices library using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleberi/microservices-practical.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caleberi/microservices-practical/issues"
+  },
+  "homepage": "https://github.com/caleberi/microservices-practical#readme",
+  "dependencies": {
+    "moleculer": "^0.14.13",
+    "moleculer-web": "^0.10.0-beta2",
+    "nats": "^2.0.4"
+  }
+}
